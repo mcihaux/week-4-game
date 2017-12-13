@@ -27,7 +27,7 @@ var randomvar = Math.floor((Math.random() * 100  ) + 1);
 
 function randomcrystalnum() {
   for (var i=0; i < 3; i++){
-    val[i] = Math.floor((Math.random() * 10) + 1);
+    val[i] = Math.floor((Math.random() * 15) + 1);
     console.log(val[i]);
 
    if (i===0){
